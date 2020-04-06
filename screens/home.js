@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button, Text, View, Header,StyleSheet } from 'react-native';
+import { Button, Text, View, Header,StyleSheet, TextInput } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 
@@ -17,7 +17,10 @@ function HomeScreen({ navigation }) {
     <>
       <View style={styles.topHead}>
         <Text style={styles.while}>Chats</Text>
-      </View>  
+      </View>
+      <View>
+      <TextInput placeholder="Search for messages or users..." />
+      </View>
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Text>Chats</Text>
         <Button
@@ -66,7 +69,8 @@ function HomeScreen({ navigation }) {
         // shadowOpacity: 0.25,
         // shadowRadius: 3.84,
         // elevation: 5,
-        marginLeft:10,
+        marginLeft:20,
+        marginTop:20,
       },
   });
 
