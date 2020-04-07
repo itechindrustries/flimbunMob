@@ -1,7 +1,8 @@
 import * as React from 'react';
 import { Button, Text, View, Header,StyleSheet, TextInput } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
-
+import SplashScreen from 'react-native-splash-screen';
+import { create } from 'react-test-renderer';
 
 function DetailsScreen() {
     return (
@@ -13,6 +14,9 @@ function DetailsScreen() {
 
 
 function HomeScreen({ navigation }) {
+  React.useEffect(() => {
+    SplashScreen.hide()
+  }, []);
     return (
     <>
       <View style={styles.topHead}>
