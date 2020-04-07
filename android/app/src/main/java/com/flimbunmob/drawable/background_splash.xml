@@ -1,0 +1,19 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/splashscreen_bg"/>
+
+    <item
+        android:width="300dp"
+        android:height="300dp"
+        android:drawable="@mipmap/icon"
+        android:gravity="center" />
+
+    <item
+        android:drawable="from Itech Indrustries"
+        android:layout_gravity="center"
+        android:gravity="bottom" />
+
+</layer-list>
