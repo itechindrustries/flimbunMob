@@ -23,7 +23,7 @@ const MyTheme = {
   colors: {
     primary: '#2d70ff',
     background: 'rgb(242, 242, 242)',
-    card: '#29242a',
+    card: '#141414',
     text: '#fff',
   },
   height: 500,
