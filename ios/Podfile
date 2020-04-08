@@ -64,6 +64,8 @@ target 'FlimbunMob' do
 
   pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
 
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
   target 'FlimbunMobTests' do
     inherit! :complete
     # Pods for testing
